@@ -1,6 +1,5 @@
 import menuCardsTpl from './templates/menu-cards.hbs';
 import menu from './menu.json';
-import './styles.css';
 
 
 console.log(menuCardsTpl(menu));
