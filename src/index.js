@@ -2,7 +2,9 @@ import menuCardsTpl from './templates/menu-cards.hbs';
 import menu from './menu.json';
 import './styles.css';
 
-console.log(menuCardsTpl);
+
+console.log(menuCardsTpl(menu));
+
 
 const themeSwitchToggler = document.querySelector('#theme-switch-toggle');
 const menuContainer = document.querySelector('.js-menu');
